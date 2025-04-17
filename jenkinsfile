@@ -8,7 +8,7 @@ pipeline {
     }
     stage('stage2') {
       steps {
-        bat '"C:\\Windows\\System32\\cmd.exe" /c python jenkins parameter.py'
+        bat '"C:\\Windows\\System32\\cmd.exe" /c python parameter.py'
       }
     }
   }

@@ -1,8 +1,8 @@
 import sys
 
-x = int(sys.argv[1])
+X = int(sys.argv[1])
 
-y = int(sys.argv[2])
+Y = int(sys.argv[2])
 
 
-print(" Multiply = ", (x*y) )
+print(" Multiply = ", (X*Y) )

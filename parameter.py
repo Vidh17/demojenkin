@@ -1,8 +1,9 @@
+#PROGRAM FOR INPUT PARAMETERS
 import sys
 
-X = int(sys.argv[1])
+x = int(sys.argv[1])
 
-Y = int(sys.argv[2])
+y = int(sys.argv[2])
 
 
-print(" Multiply = ", (X*Y) )
+print(" Multiply = ", (x*y) )

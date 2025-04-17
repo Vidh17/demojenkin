@@ -8,7 +8,8 @@ pipeline {
     }
     stage('stage2') {
       steps {
-        bat '"C:\\Windows\\System32\\cmd.exe" /c python parameter.py'
+        bat '"C:\\Windows\\System32\\cmd.exe" /c python parameter.py %x_value%'
+        bat '"C:\\Windows\\System32\\cmd.exe" /c python parameter.py %y_value%'
       }
     }
   }

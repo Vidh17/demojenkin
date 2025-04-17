@@ -1,3 +1,4 @@
+
 #PROGRAM FOR INPUT PARAMETERS
 import sys
 
@@ -7,3 +8,4 @@ y = int(sys.argv[2])
 
 
 print(" Multiply = ", (x*y) )
+

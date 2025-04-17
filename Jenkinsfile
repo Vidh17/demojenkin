@@ -8,7 +8,7 @@ pipeline {
     }
     stage('STAGE2') {
       steps {
-        bat '"C:\\Windows\\System32\\cmd.exe" /c python test1.py %X_VALUE% %Y_VALUE%'
+        bat '"C:\\Windows\\System32\\cmd.exe" /c python test1.py %10_VALUE% %5_VALUE%'
       }
     }
   }
